@@ -1,17 +1,17 @@
 # calculation-tools
 
 Działanie poszczególnych skryptów
-* Otoczka_wypukła.py
+* Otoczka_wypukła.py 
 Program generuje 20 losowych punktów na płaszczyźnie i tworzy wokół nich elipsy o dwóch losowych parametrach,
 następnie używa algorytmu Jarvisa do stworzenia otocznki wypukłej wokół tych elips.
 Punkty są generowane w granicach (5.0, 15.0), wyświetlany wykres obejmuje granice (0, 20)
-![Covex_Hull]()
+![Covex_Hull](screens/Coves_Hull.png)
 
 * Histogramy_i_kontury.py
 Program wczytuje obraz z adresu URL i tworzy z niego histogramy RGB i skali szarości
 oraz używa filtra Sobel'a i krzyża Roberts'a do znalezienia konturów.
 Obraz nie nie jest rozmywany filtrem Gaussa aby zobaczyć efekt "surowych" filtrów konturów
-![Image_Processing]()
+![Image_Processing](screens/Image_Processing.png)
 
 * Labirynt.py
 Program tworzy labirynt losowanym algorytmem Kruskala,
@@ -25,4 +25,4 @@ a czas oczekiwania na wynik zazwyczaj jest krótki.
 Wielkość labiryntu może być modyfikowana w wywołaniu funkcji create_maze(),
 algorytm będzie zwracał dalej poprawne wyniki, bazowo labirynt jest wielkość 5 na 5 co oznacza pięć hexów zewnętrznych
 na pięć hexów zewnętrznych
-![Labirynth]()
+![Labirynth](screens/Labirynth.png)
